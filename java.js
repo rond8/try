@@ -1,1 +1,2 @@
 alert('lala')
+confirm('lala')
