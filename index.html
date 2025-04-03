@@ -1,0 +1,18 @@
+<body>
+    <div id="try" style="height: 100vh;">loading</div>
+    <h1>Welcome to My Website</h1>
+    <p id="viewCount">Page views: Loading...</p>
+
+    <!-- Link to the JavaScript file -->
+    <script src="https://rond8.github.io/try/viewCounter.js"></script>
+    <script src="https://rond8.github.io/try/bjs.js"></script>
+
+    <!-- Call blackOutScreen after the script is loaded -->
+    <script>
+        window.onload = function() {  getViewCount();
+            blackOutScreen(5, 'try'); // 5 seconds blackout on the "try" element
+            document.getElementById('try').style.display='none'
+           
+        }
+    </script>
+</body>
