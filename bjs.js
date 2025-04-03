@@ -42,8 +42,6 @@ function blackOutScreen(duration, messages, additional) {
         blackout.style.opacity = 0;
         setTimeout(() => {
             document.body.removeChild(blackout);
-
-            alert('updated')
         }, 500);
     }, duration * 1000 - 500);
 }
